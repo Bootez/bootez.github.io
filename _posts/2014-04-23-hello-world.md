@@ -20,3 +20,5 @@ int main(int argc, const char *argv[])
 }
 
 {% endhighlight %}
+
+![imgaes]({{ site.url }}/assets/images/abc.gif)
