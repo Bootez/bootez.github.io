@@ -77,7 +77,6 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub git@gitserver
 {% highlight sh %}
 
 ssh git@gitserver
-
 cd
 git --bare init repo.git
 
