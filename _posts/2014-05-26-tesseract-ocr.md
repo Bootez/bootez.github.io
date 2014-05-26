@@ -135,3 +135,46 @@ tesseract.cpp:(.text+0xfc): undefined reference to `pixDestroy'
 collect2: ld returned 1 exit status
 
 {% endhighlight %}
+
+#### 运行错误：
+
+#### 1.图片文件位置不正确：
+
+{% highlight sh %}
+
+Error in fopenReadStream: file not found
+Error in pixRead: image file not found
+Error in pixGetDimensions: pix not defined
+Error in pixGetColormap: pix not defined
+Error in pixClone: pixs not defined
+Error in pixGetDepth: pix not defined
+Error in pixGetWpl: pix not defined
+Error in pixGetYRes: pix not defined
+Please call SetImage before attempting recognition.OCR output:
+
+{% endhighlight %}
+
+根据图片位置修改代码中的文件路径:
+{% highlight c %}
+
+Pix *image = pixRead("/usr/src/tesseract-3.02/phototest.tif");
+
+{% endhighlight %}
+
+
+若要下载本文中的代码可执行以下命令(请确保正确安装了git):
+
+{% highlight sh %}
+
+git clone https://github.com/Bootez/tesseract-ocr-linux.git
+
+{% endhighlight %}
+
+然后:
+
+{% highlight sh %}
+
+make
+./tesseract
+
+{% endhighlight %}
