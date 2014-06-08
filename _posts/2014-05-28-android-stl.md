@@ -7,7 +7,7 @@ tags: [android, error]
 ---
 {% include JB/setup %}
 
-今天在做Tesseract OCR到Android的移植时碰到｀fatal error: vector: No such file or directory`的问题。Google一番后发现很多同学也遇到相同的问题，不过大部分人是用NDK编译时碰到的，个人比较喜欢
+今天在做Tesseract OCR到Android的移植时碰到`fatal error: vector: No such file or directory`的问题。Google一番后发现很多同学也遇到相同的问题，不过大部分人是用NDK编译时碰到的，个人比较喜欢
 在源码中编译native代码。在这里关于这两种方法都做个总结：
 
 ### 1.NDK编译
