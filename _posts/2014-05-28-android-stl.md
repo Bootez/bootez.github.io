@@ -2,7 +2,7 @@
 layout: post
 title: "Android STL"
 description: "在Android Native代码中使用STL的问题"
-category: 
+category: programming
 tags: [android, error]
 ---
 {% include JB/setup %}

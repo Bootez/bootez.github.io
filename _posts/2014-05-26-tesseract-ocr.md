@@ -2,7 +2,7 @@
 layout: post
 title: "Tesseract-OCR"
 description: "本文主要介绍如何在Debian Wheezy上安装Tesseract OCR及其开发环境。"
-category: 
+category: software
 tags: [linux, ocr, tutorial]
 ---
 {% include JB/setup %}

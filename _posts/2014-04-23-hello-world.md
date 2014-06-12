@@ -2,7 +2,11 @@
 layout: post
 title: "Hello World"
 description: ""
-category: 
+category: essay
+category: software
+category: algorithm
+category: internet
+category: programming
 tags: [Test]
 ---
 {% include JB/setup %}

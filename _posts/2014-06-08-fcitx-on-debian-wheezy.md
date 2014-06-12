@@ -2,7 +2,7 @@
 layout: post
 title: "Fcitx on Debian Wheezy"
 description: "在Debian Wheezy上安装Fcitx记录"
-category: 
+category: software
 tags: [linux, tutorial]
 ---
 {% include JB/setup %}

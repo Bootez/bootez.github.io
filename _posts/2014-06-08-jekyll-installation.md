@@ -2,7 +2,7 @@
 layout: post
 title: "Jekyll Installation"
 description: "Jekyll博客系统在Debian Wheezy上的搭建流程记录"
-category:  Tutorial
+category: software
 tags: [linux, jekyll, tutorial]
 ---
 {% include JB/setup %}
