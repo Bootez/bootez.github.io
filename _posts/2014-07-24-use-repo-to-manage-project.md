@@ -70,6 +70,7 @@ $ repo sync
 
 $ git clone /usr/local/aosp/mirror/manifests.git
 $ cd manifests (修改fetch的URL)
+$ git push
 $ mkdir -p /usr/local/aosp/master
 $ cd /usr/local/aosp/master
 $ repo init -u /usr/local/aosp/mirror/platform/manifest.git
